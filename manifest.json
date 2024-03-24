@@ -1,0 +1,21 @@
+{
+    "name" : "Text-Teller",
+    "description": "This is an early development stage extension and currently can select title of current tab.",
+    "version" : "1.0.1",
+    "manifest_version" : 3,
+
+    "background":{
+        "service_worker": "background.js"
+    },
+
+    "action" : {
+        "default_popup" : "popup.html"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "icons":{
+        "16" : "/images/icon.png",
+        "32" : "/images/icon.png",
+        "48" : "/images/icon.png"
+    }
+
+}
