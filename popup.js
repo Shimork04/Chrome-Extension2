@@ -75,7 +75,7 @@ btn.addEventListener("click", async () => {
         if (data.result) {
             const dataa = data.result;
             fetchedTitle.innerText = dataa;
-            fetchedTitle.innerHTML = "Title of Page is:  " + " ' " + dataa + " ' ";
+            fetchedTitle.innerHTML = "Title of the Page is:  " + " ' " + dataa + " ' ";
 
             try {
                 await navigator.clipboard.writeText(dataa);

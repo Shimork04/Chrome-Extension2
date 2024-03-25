@@ -2,25 +2,35 @@
 
 
 body{
- background-color: rgb(221, 222, 220);
+ background-color: rgb(113, 15, 232);
+ color: #f8f8f8;
  font-family: "Poppins", sans-serif;
 }
 
 .fetchBtn{
     border-radius: 10px;
+    width: 200px;
+    background-color: #dfd7ee;
+    /* color: #f8f8f8; */
+
+    /* text-decoration: aliceblue; */
     padding: 8px 8px;
-    /* font-family: "Poppins", sans-serif; */
     font-weight: bold;
     cursor: pointer;
 }
 
 .wrapper{
-    width: 290px;
+    width: 348px;
     text-align: center;
 }
 
 .titleContainer{
-    margin-top: 5px;
+    display: flex;
+    /* flex-direction:  column; */
+    text-align: center;
+    width: 280px;
+    /* margin-top: 5px; */
+    margin: 7px 33px;
     font-weight: bold;
     font-size: 15px;
 }
